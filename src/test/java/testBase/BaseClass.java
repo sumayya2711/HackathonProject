@@ -18,6 +18,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
  
 public class BaseClass {
@@ -26,7 +27,7 @@ public class BaseClass {
 	public static Logger logger;
 	public Properties property;
  
-	@BeforeTest(groups={"smoke"})
+	@BeforeTest(groups={"smoke","regression"})
 	@Parameters({"os", "browser"})
 	public void setup(String os, String browser) throws InterruptedException, IOException
 	{
@@ -75,7 +76,7 @@ public class BaseClass {
 		driver.get(property.getProperty("appURL"));
 		driver.manage().window().maximize();
 	}
-	@AfterTest
+	@AfterTest(groups= {"smoke","regression"})
 	public void teardown()
 	{
 		driver.quit();
@@ -90,5 +91,5 @@ public class BaseClass {
 		sourceFile.renameTo(targetFile);
 		return targetFilePath;
 	}
- 
+	
 }

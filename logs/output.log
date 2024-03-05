@@ -1,12 +1,18 @@
-17:39:25.956 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-17:39:26.004 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:39:26.005 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:39:26.064 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
-17:39:26.066 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
-17:39:26.068 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
-17:39:26.069 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
-17:39:26.074 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
-17:39:26.074 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
-17:39:26.076 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
-17:39:26.077 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
-17:39:26.081 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+11:13:37.626 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+11:13:38.530 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+11:13:38.821 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+11:13:40.404 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+11:13:40.804 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+11:13:41.978 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+11:17:16.520 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+11:17:17.403 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+11:17:17.805 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+11:17:19.134 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+11:17:19.531 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+11:17:20.486 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+11:18:23.291 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+11:18:24.090 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+11:18:24.482 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+11:18:26.472 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+11:18:26.917 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+11:18:28.043 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****

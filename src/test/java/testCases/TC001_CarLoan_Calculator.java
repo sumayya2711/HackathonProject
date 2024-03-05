@@ -13,7 +13,7 @@ import pageObjects.LoanTenureCalculator;
 import testBase.BaseClass;
 public class TC001_CarLoan_Calculator extends BaseClass{
 	
-	@Test(priority=1)
+	@Test(priority=1,groups = {"smoke","regression"})
     public void Test1_001() throws IOException
     {
 		CarLoan car=new CarLoan(driver);
@@ -21,19 +21,19 @@ public class TC001_CarLoan_Calculator extends BaseClass{
 		
 		
     	 }
-	@Test(priority=2)
+	@Test(priority=2,groups= {"regression"})
 	 public void Test1_002() throws IOException
 	    {
 		 CarLoan car=new CarLoan(driver);
 		 car.verify_title();
 	    }
-	@Test(priority=2)
+	@Test(priority=2,groups= {"regression"})
 	public void Test1_003() throws IOException {
 		CarLoan car=new CarLoan(driver);
 		car.setLoanAmount();
 		car.setInterestRate();
 	}
-	@Test(priority=3)
+	@Test(priority=3,groups= {"regression"})
 	public void Test1_004() throws IOException {
 		CarLoan car=new CarLoan(driver);
 		car.setLoanTerm();

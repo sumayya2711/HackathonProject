@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC004_LoanAmount_Calculator extends BaseClass {
 	
-	@Test(priority=1)
+	@Test(priority=1,groups= {"regression"})
 	public void Test4_001()
 	{
 		
@@ -15,7 +15,7 @@ public class TC004_LoanAmount_Calculator extends BaseClass {
 		logger.info("****Loan Amount validation initiated****");
 		loan.SwitchtototalAmount();
 		loan.LoanAmountvalidation();
-		logger.info("****Loan Amount validation initiated****");
+		logger.info("****Loan Amount validation ended****");
 	}
 
 }

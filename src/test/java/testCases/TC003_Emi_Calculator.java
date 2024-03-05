@@ -7,19 +7,19 @@ import testBase.BaseClass;
 
 public class TC003_Emi_Calculator extends BaseClass{
 	
-	@Test(priority=1)
+	@Test(priority=1,groups= {"smoke","regression"})
 	public void TC003_Test1()
 	{
 		EmiCalculator emi=new EmiCalculator(driver);
 		emi.menu_click();
 	}
-	@Test(priority=2)
+	@Test(priority=2,groups= {"regression"})
 	public void TC003_Test2()
 	{
 		EmiCalculator emi=new EmiCalculator(driver);
 		emi.verify_title();
 	}
-	@Test(priority=3)
+	@Test(priority=3,groups= {"regression"})
 	public void TC003_Test3()
 	{
 		EmiCalculator emi=new EmiCalculator(driver);

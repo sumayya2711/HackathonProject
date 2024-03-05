@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -40,6 +42,7 @@ public class EmiCalculator extends BasePage{
 	{
 		menu.click();
 		loan_calculator.click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	public void verify_title()
@@ -57,17 +60,33 @@ public class EmiCalculator extends BasePage{
 			System.out.println("-----------------------------------");
 			System.out.println("AmountcheckBox is validated");
 		}
+		else
+		{
+			System.out.println("AmountcheckBox is not validated");
+		}
 		if(slider1.isEnabled()==true)
 		{
 			System.out.println("Amount Slider is validated");
+		}
+		else
+		{
+			System.out.println("Amount Slider is not validated");
 		}
 		if(interest.isEnabled()==true)
 		{
 			System.out.println("Interest checkBox is validated");
 		}
+		else
+		{
+			System.out.println("Interest checkBox is not validated");
+		}
 		if(slider2.isEnabled()==true)
 		{
 			System.out.println("Interest Slider is validated");
+		}
+		else
+		{
+			System.out.println("Interest Slider is not validated");
 		}
 		String value1=InterestTenureslider.getText();
 		month.click();

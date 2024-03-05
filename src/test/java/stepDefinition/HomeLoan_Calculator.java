@@ -24,7 +24,7 @@ public class HomeLoan_Calculator {
 	}
 
 	@Then("store year table in excel")
-	public void storing_year_table_in_excel() throws IOException {
+	public void storing_year_table_in_excel() throws IOException, InterruptedException {
 		home.scrollToTable();
 		home.storingDataToExcel();
 	}

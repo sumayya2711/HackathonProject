@@ -9,6 +9,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import utilities.ReadExcel;
@@ -18,6 +19,8 @@ public class HomeLoan extends BasePage{
 	
 	public HomeLoan(WebDriver driver) {
 		super(driver);
+		
+		
 		
 	}
 
@@ -41,6 +44,7 @@ public class HomeLoan extends BasePage{
 	List<WebElement> row;
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	String file = (System.getProperty("user.dir")+"/testData/input.xlsx");
+
 	
 	public void verify_homeloan_page()
 	{
@@ -85,14 +89,18 @@ public class HomeLoan extends BasePage{
 		insurance.sendKeys(str);
 	}
 	
-	public void scrollToTable()
+	public void scrollToTable() throws InterruptedException
 	{
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		Thread.sleep(5000);
 		js.executeScript("arguments[0].scrollIntoView();", yearTable);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 	}
 
 	public void storingDataToExcel() throws IOException
 	{
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		WriteExcel.setCellData("Sheet1", 0, 0, "Year");
 		WriteExcel.setCellData("Sheet1", 0, 1, "Principal");
 		WriteExcel.setCellData("Sheet1", 0, 2, "Interest");

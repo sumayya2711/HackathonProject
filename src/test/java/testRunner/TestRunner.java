@@ -10,8 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 		features = {".//FeatureFile/InterestRate.feature"},
 		glue= {"stepDefinition"},
 		plugin = {"pretty","html:target/cucumber-reports/report.html",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-					
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+			
+		dryRun=false
 		)
 public class TestRunner {
 	
