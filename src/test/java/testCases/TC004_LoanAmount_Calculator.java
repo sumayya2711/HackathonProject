@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC004_LoanAmount_Calculator extends BaseClass {
 	
-	@Test(priority=1,groups= {"regression"})
+	@Test(priority=1)
 	public void Test4_001()
 	{
 		

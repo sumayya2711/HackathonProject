@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC005_LoanTenure_Calculator extends BaseClass {
 	
-	@Test(priority=1,groups= {"regression"})
+	@Test(priority=1)
 	public void Test5_001()
 	{
 		LoanTenureCalculator loan_tenure=new LoanTenureCalculator(driver);

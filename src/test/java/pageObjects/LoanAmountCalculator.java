@@ -31,23 +31,42 @@ public class LoanAmountCalculator extends BasePage{
 	WebElement FeesCheckbox;
 	@FindBy(xpath="//div[@id='loanfeesslider']")
 	WebElement Feesslider;
+	// To click on loan amount calculator
 	public void SwitchtototalAmount() {
 		clickonloanAmount.click();
 	}
+	
+	//To validate text boxes and sliders in loan amount calculator
 	public void LoanAmountvalidation() {
 		if(EmiTextbox.isEnabled()==true) {
 			System.out.println("Validation for Loan Amount Calculator page");
 			System.out.println("-----------------------------------");
 			System.out.println("AmountcheckBox is validated");
 		}
+		else
+		{
+			System.out.println("AmountcheckBox is not validated");
+		}
 		if(Emislider.isEnabled()==true) {
 			System.out.println("Amount Slider is validated");
+		}
+		else
+		{
+			System.out.println("Amount Slider is not validated");
 		}
 		if(Interestcheckbox.isEnabled()==true) {
 			System.out.println("AmountInterestcheckbox is validated");
 		}
+		else
+		{
+			System.out.println("AmountInterestcheckbox is not validated");
+		}
 		if(Interestslider.isEnabled()==true) {
 			System.out.println("AmountInterestSlider is validated");
+		}
+		else
+		{
+			System.out.println("AmountInterestSlider is not validated");
 		}
 		String value1=InterestTenureslider.getText();
 		clickonMonth.click();
@@ -62,9 +81,17 @@ public class LoanAmountCalculator extends BasePage{
 		if(FeesCheckbox.isEnabled()==true) {
 			System.out.println("FeesCheck box is validated");
 		}
+		else
+		{
+			System.out.println("FeesCheck box is not validated");
+		}
 		if(Feesslider.isEnabled()==true) {
 			System.out.println("FeesSlider is validated");
 		}	
+		else
+		{
+			System.out.println("FeesSlider is not validated");
+		}
 }
 }	
 

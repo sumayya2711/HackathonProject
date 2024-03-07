@@ -1,18 +1,40 @@
-11:13:37.626 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
-11:13:38.530 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
-11:13:38.821 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
-11:13:40.404 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
-11:13:40.804 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
-11:13:41.978 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
-11:17:16.520 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
-11:17:17.403 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
-11:17:17.805 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
-11:17:19.134 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
-11:17:19.531 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
-11:17:20.486 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
-11:18:23.291 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
-11:18:24.090 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
-11:18:24.482 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
-11:18:26.472 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
-11:18:26.917 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
-11:18:28.043 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+17:10:50.248 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+17:10:51.283 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+17:10:51.680 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+17:10:52.503 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+11:49:26.197 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+11:49:27.582 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+11:49:28.070 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+11:49:30.133 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+11:49:30.639 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+11:49:31.735 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+11:50:44.799 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+11:50:46.090 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+11:50:46.462 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+11:50:47.595 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+11:50:48.011 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+11:50:49.265 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+17:52:23.244 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+17:52:24.556 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+17:52:24.916 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+17:52:26.526 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+17:52:26.821 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+17:52:27.801 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+17:53:40.323 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+17:53:41.133 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+17:53:41.494 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+17:53:43.483 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+17:53:43.852 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+17:53:45.022 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+09:47:02.379 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+09:47:03.318 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+09:47:03.678 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+09:47:04.910 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+09:47:05.369 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+09:47:06.190 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****
+09:48:36.006 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation initiated****
+09:48:37.103 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Emi validation ended****
+09:48:37.542 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation initiated****
+09:48:39.557 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Amount validation ended****
+09:48:40.136 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation initiated****
+09:48:41.728 [main] INFO  testCases.TC001_CarLoan_Calculator - ****Loan Tenure validation ended****

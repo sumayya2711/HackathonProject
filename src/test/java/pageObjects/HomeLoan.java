@@ -9,9 +9,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import utilities.ReadExcel;
 import utilities.WriteExcel;
 
@@ -45,7 +43,13 @@ public class HomeLoan extends BasePage{
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	String file = (System.getProperty("user.dir")+"/testData/input.xlsx");
 
-	
+   // To click on home loan emi calculator
+	public void click_Menu()
+	{
+		menu.click();
+		homeloan.click();
+	}
+	// To verify home loan calculator title
 	public void verify_homeloan_page()
 	{
 		String title="Home Loan EMI Calculator with Prepayments, Taxes & Insurance";
@@ -53,11 +57,7 @@ public class HomeLoan extends BasePage{
 		System.out.println(expected_title);
 		Assert.assertEquals(title, expected_title);
 		}
-	public void click_Menu()
-	{
-		menu.click();
-		homeloan.click();
-	}
+	//To set home price value
 	public void setHomePrice() throws IOException
 	{
 		home_price.clear();
@@ -66,13 +66,14 @@ public class HomeLoan extends BasePage{
 		home_price.sendKeys(str);
 	}
 	
+	//To set down pay value
 	public void setDownPay() throws IOException
 	{
 		downpay_el.sendKeys(Keys.BACK_SPACE);
 		String str=ReadExcel.getCellData(file,"Sheet1", 1, 4);
 		downpay_el.sendKeys(str);
 	}
-	
+	//To set loan tenure value
 	public void setTenure() throws IOException
 	{
 		home_tenure.clear();
@@ -81,14 +82,14 @@ public class HomeLoan extends BasePage{
 		String str=ReadExcel.getCellData(file,"Sheet1", 1, 5);
 		home_tenure.sendKeys(str);
 	}
-
+    //To  set value for insurance textbox
 	public void setInsurance() throws IOException
 	{
 		insurance.sendKeys(Keys.BACK_SPACE);
 		String str=ReadExcel.getCellData(file,"Sheet1", 1, 6);
 		insurance.sendKeys(str);
 	}
-	
+	//To scroll to year on table
 	public void scrollToTable() throws InterruptedException
 	{
 		
@@ -98,6 +99,7 @@ public class HomeLoan extends BasePage{
 		
 	}
 
+	//To write data to excel
 	public void storingDataToExcel() throws IOException
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

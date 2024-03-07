@@ -7,10 +7,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObjects.CarLoan;
-import pageObjects.EmiCalculator;
-import pageObjects.HomeLoan;
-import pageObjects.LoanAmountCalculator;
-import pageObjects.LoanTenureCalculator;
 
 
 public class CarLoan_Calculator {

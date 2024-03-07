@@ -49,7 +49,7 @@ public class CarLoan extends BasePage{
 	String title="EMI Calculator for Home Loan, Car Loan & Personal Loan in India";
 	String expected_title=driver.getTitle();
 	System.out.println(expected_title);
-	Assert.assertEquals(title, expected_title,"true");
+	Assert.assertEquals(title, expected_title);
 	
 	}
 	//To set value to loan amount textbox
@@ -78,7 +78,7 @@ public class CarLoan extends BasePage{
 		
 	}
 	
-	//To get  
+	//To get Total Emi for one year
 	public void getTotalEmi()
 	{
 		js.executeScript("arguments[0].scrollIntoView();", total_emi);
@@ -86,11 +86,13 @@ public class CarLoan extends BasePage{
 		System.out.println(emi);
 		
 	}
+	
 	public String getEmi()
 	{
 		return emi_ele.getText();	
 	}
 	
+	//To get interest for one month
 	public int getInterest()
 	{
 		month.click();
@@ -107,6 +109,7 @@ public class CarLoan extends BasePage{
 		return emiInt;
 			
 	}
+	//To get principal amount 
 	public int getPrincipalAmount()
 	{
 		int interest=getInterest();

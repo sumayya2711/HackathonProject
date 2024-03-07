@@ -29,10 +29,12 @@ public class LoanTenureCalculator extends BasePage {
 	@FindBy(xpath="(//span[@class='ui-slider-handle ui-corner-all ui-state-default'])[5]")
 	WebElement fees_slider;
 	
+	//To click on loan tenure calculator
 	public void switchToLoanTenure()
 	{
 		loan_tenure_menu.click();
 	}
+	//To validate text boxes and sliders in loan tenure calculator
 	public void loanTenureValidation()
 	{
 		if(loan_amount.isEnabled()==true)
@@ -41,33 +43,65 @@ public class LoanTenureCalculator extends BasePage {
 			System.out.println("-----------------------------------");
 			System.out.println("AmountcheckBox is validated");
 		}
+		else
+		{
+			System.out.println("AmountcheckBox is not validated");
+		}
 		if(loan_amount_slider.isEnabled()==true)
 		{
 			System.out.println("Amount Slider is validated");
+		}
+		else
+		{
+			System.out.println("Amount Slider is not validated");
 		}
 		if(emi_checkbox.isEnabled()==true)
 		{
 			System.out.println("Emi checkBox is validated");
 		}
+		else
+		{
+			System.out.println("Emi checkBox is not validated");
+		}
 		if(emi_slider.isEnabled()==true)
 		{
 			System.out.println("Emi Slider is validated");
+		}
+		else
+		{
+			System.out.println("Emi Slider is not validated");
 		}
 		if(interest_checkbox.isEnabled()==true)
 		{
 			System.out.println("Interest Rate checkBox is validated");
 		}
+		else
+		{
+			System.out.println("Interest Rate checkBox is not validated");
+		}
 		if(interest_slider.isEnabled()==true)
 		{
 			System.out.println("Interest Rate Slider is validated");
+		}
+		else
+		{
+			System.out.println("Interest Rate Slider is not validated");
 		}
 		if(fees.isEnabled()==true)
 		{
 			System.out.println("Fees and charges tenure checkBox is validated");
 		}
+		else
+		{
+			System.out.println("Fees and charges tenure checkBox is not validated");
+		}
 		if(fees_slider.isEnabled()==true)
 		{
 			System.out.println("Fees and charges Slider is validated");
+		}
+		else
+		{
+			System.out.println("Fees and charges Slider is not validated");
 		}
 	}
 }

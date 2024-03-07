@@ -12,9 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"pretty","html:target/cucumber-reports/report.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 			
-		dryRun=false
+		dryRun=false,
+		monochrome=true
 		)
-public class TestRunner {
+public class TestRunner{
 	
-
 }

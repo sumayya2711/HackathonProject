@@ -37,7 +37,7 @@ public class EmiCalculator extends BasePage{
 	@FindBy(xpath="(//span[@class='marker'])[25]")
 	WebElement InterestTenureslider;
 	
-	
+	//To click on loan calculator
 	public void menu_click()
 	{
 		menu.click();
@@ -45,6 +45,7 @@ public class EmiCalculator extends BasePage{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
+	//To verify title
 	public void verify_title()
 	{
 		String title="Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate";
@@ -52,6 +53,7 @@ public class EmiCalculator extends BasePage{
 		Assert.assertEquals(title, expected_title);
 		
 	}
+	//To validate text boxes and sliders in emi calculator page
 	public void loanAmountValidation()
 	{
 		if(loan_amount.isEnabled()==true)
@@ -102,9 +104,17 @@ public class EmiCalculator extends BasePage{
 		{
 			System.out.println("Fees and charges tenure checkBox is validated");
 		}
+		else
+		{
+			System.out.println("Fees and charges tenure checkBox is not validated");
+		}
 		if(slider4.isEnabled()==true)
 		{
 			System.out.println("Fees and charges Slider is validated");
+		}
+		else
+		{
+			System.out.println("Fees and charges Slider is not validated");
 		}
 	}
 }
